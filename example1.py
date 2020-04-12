@@ -18,16 +18,6 @@ amount_of_hours = amount_of_minutes_left_over // minutes_per_hour
 amount_of_minutes = amount_of_minutes_left_over % minutes_per_hour
 
 
-print(amount_of_minutes_per_day)
 
-print(amount_of_days)
-
-
-print(amount_of_minutes_left_over)
-
-print(amount_of_hours)
-
-print(amount_of_minutes)
-
-print(number_of_minutes, ' ', 'minutes', ' ', '=', ' ', amount_of_days, ' ', 'days', ' ', amount_of_hours, ' ', 'hours', ' ', 'and', ' ', amount_of_minutes, ' ', 'minutes', sep ='')
+print(number_of_minutes, 'minutes', '=', amount_of_days, 'days', amount_of_hours, 'hours', 'and', amount_of_minutes, 'minutes')
 
