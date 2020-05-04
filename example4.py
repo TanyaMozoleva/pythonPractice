@@ -2,12 +2,14 @@
 Write a program that converts a volume of 1571 ounces to the equivalent volume in gallons, pints and ounces. There are 8 pints in a gallon and 16 ounces in a print
 '''
 
-ounces = 1571
-pints_in_gallon = 8
+initial_ounces = 1571
 ounces_in_pint = 16
-last_ounces = ounces % ounces_in_pint
-pints = ounces / ounces_in_pint
-last_gallons = pints / pints_in_gallon
-last_pints = pints % pints_in_gallon
+pints_in_gallon = 8
 
-print('1571 ounces is equivalent to: ', '\n', round(last_gallons), ' gallons, ', round(last_pints), ' pints and ', last_ounces, ' ounces ', sep = '')
+ounces = initial_ounces % ounces_in_pint
+whole_pints = initial_ounces // ounces_in_pint
+gallons = whole_pints // pints_in_gallon
+pints = whole_pints % pints_in_gallon
+
+print(initial_ounces, ' ounces is equivalent to:', sep = '')
+print(gallons, ' gallons, ', pints, ' pints and ', ounces, ' ounces ', sep = '')
