@@ -1,9 +1,6 @@
-praise = 'good!'
-lots_of_praise = praise * 4
-print(praise)
-print(lots_of_praise)
-
-
+'''
+complete the output
+'''
 s = 'Dogs have masters. Cats have staff.'
 
 print('1.', s[1: 6])
