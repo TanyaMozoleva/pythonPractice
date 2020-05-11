@@ -1,8 +1,15 @@
 '''
-Write a program that prompts the user o enter a positive floating point value and
-a negative floating point value. This program will calculate the square  of these values
- and the prints the absolute difference of the squares rounded to two decimal places
+Complete the programm that prompts thr user to enter a floatibg point value and
+an unteger value and calculates and displays the value obtained when the floating point
+value is raised to the power of the integer value. The result will be rounded to the
+nearist 3 decimal places.
 '''
 
-positive_float = float(input('Enter a positive float: '))
-nagative_float = float(input('Enter a negative float: '))
+prompt1 = input('Enter a floating point number: ')
+prompt1 = float(prompt1)
+prompt2 = input('Enter an integer: ')
+prompt2 = int(prompt2)
+obtained_value = prompt1 ** prompt2
+obtained_value = round(obtained_value, 3)
+
+print(prompt1, ' to the power of ', prompt2, ' is ', obtained_value, sep = '')
