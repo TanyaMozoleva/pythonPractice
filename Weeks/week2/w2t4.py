@@ -6,8 +6,8 @@ a negative floating point value. This program will calculate the square  of thes
 
 positive_float = float(input('Enter a positive float: '))
 negative_float = float(input('Enter a negative float: '))
-square_of_the_positive_input = positive_float ** 2 
-square_of_the_negative_input = negative_float ** 2 
-difference_between_squares = round(abs(square_of_the_positive_input - square_of_the_negative_input), 2)
+square_of_the_positive_float = positive_float ** 2 
+square_of_the_negative_float = negative_float ** 2 
+difference_between_squares = round(abs(square_of_the_positive_float - square_of_the_negative_float), 2)
 
 print('The absolute difference of the squares is ', difference_between_squares, sep = '')

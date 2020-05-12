@@ -5,8 +5,8 @@ entered by the user are swapped.
 '''
 
 word = input('Enter a word: ')
-first_character = word[:1]
-last_character = word[-1:]
+first_character = word[0]
+last_character = word[-1]
 middle_slice = word[1:-1]
 new_word = last_character + middle_slice + first_character
 

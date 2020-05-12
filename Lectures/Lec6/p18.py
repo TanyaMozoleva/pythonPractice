@@ -20,7 +20,7 @@ user_sum = int(input(prompt))
 difference = abs(user_sum - dice_sum)
 the_dice = (the_dice + str(dice1) + ' ' + str(dice2) + 
             ' ' + str(dice3) + ' ' + str(dice4) + ')')
-
-print('The dice:', the_dice )
-print('Your total:', user_sum, 'dice total: ', dice_sum)
-print('You are out by:', difference)
+                   
+print('The dice: ', the_dice, sep='')
+print('Your total: ', user_sum, 'dice total: ', dice_sum, sep='')
+print('You are out by: ', difference, sep='')
