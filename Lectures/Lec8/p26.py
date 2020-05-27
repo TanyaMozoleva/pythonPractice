@@ -35,5 +35,3 @@ items = get_number_of_items('Enter number of items: ')
 boxes = required_boxes(items, items_per_box)
 cost = cost_of_items(boxes)
 display_costs(items, boxes, cost)
-
-print()
