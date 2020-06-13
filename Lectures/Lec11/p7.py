@@ -23,4 +23,5 @@ def main():
     salary = 250000
     new_salary = add_bonus(salary)
     print('Was: $' + str(salary), ' Now: $' + str(new_salary), sep='')
+    
 main()

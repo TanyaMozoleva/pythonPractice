@@ -4,6 +4,7 @@ divisible by 100, e.g., 1900, 2011 and 2100 are not a leap years whereas
 2000, 2008 and 2400 are leap years. Complete the is_leap_year()
 function.
 '''
+
 def is_leap_year(year):
     if year % 400 == 0:
         return True
@@ -19,4 +20,5 @@ def main():
     print(is_leap_year(2000))
     print(is_leap_year(2008))
     print(is_leap_year(2018))
+    
 main()

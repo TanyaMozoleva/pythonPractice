@@ -5,6 +5,7 @@ compares the first number to the second number and returns one of the
 following three strings (i.e., the string which is applicable):
 "equal to" OR "less than" OR "greater than"
 '''
+
 import random
 
 def compare_nums2(num1, num2):

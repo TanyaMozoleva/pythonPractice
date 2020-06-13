@@ -5,15 +5,17 @@ a random message. The function has 4 chances in 10 of returning
 likely", 1 chance in 10 of returning "Proceed with caution" and 2
 chances in 10 of returning "Lucky lucky you".
 '''
+
 import random
+
 def get_random_horoscope():
-    message1 = "Amazing day ahead"
-    message2 = "Romance is very likely"
-    message3 = "Proceed with caution"
-    message4 = "Lucky lucky you"
+    message1 = 'Amazing day ahead'
+    message2 = 'Romance is very likely'
+    message3 = 'Proceed with caution'
+    message4 = 'Lucky lucky you'
    
     message = ''
-    number = random.randrange(0, 10)
+    number = random.randrange(10)
     if number < 4:
         message = message1
     elif number < 7:
@@ -25,7 +27,7 @@ def get_random_horoscope():
     return message
 
 def main():
-    print("Today's message: ", get_random_horoscope(), sep='')
-    print("Today's message: ", get_random_horoscope(), sep='')
-main()
+    print('Today\'s message: ', get_random_horoscope(), sep='')
+    print('Today\'s message: ', get_random_horoscope(), sep='')
 
+main()
