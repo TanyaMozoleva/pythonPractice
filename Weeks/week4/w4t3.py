@@ -12,13 +12,11 @@ def print_even_numbers(first_num, last_num):
             print(number, end=' ')
             number = number + 1
         number = number + 1
-    
+    print()   
 
 def main():
     print_even_numbers(6, 20)
-    print()
     print_even_numbers(7, 20)
-    print()
     print_even_numbers(-9, 5)
     
 main()
